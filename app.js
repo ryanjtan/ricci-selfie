@@ -4,8 +4,9 @@ var constraints = { video: { facingMode: "user" }, audio: false };
 const cameraView = document.querySelector("#camera--view"),
     cameraOutput = document.querySelector("#camera--output"),
     cameraSensor = document.querySelector("#camera--sensor"),
-    cameraFilter = document.querySelector("#camera--filter")
-    cameraTrigger = document.querySelector("#camera--trigger")
+    cameraFilter = document.querySelector("#camera--filter"),
+    cameraTrigger = document.querySelector("#camera--trigger"),
+    cameraFilter.src = "Ricci Selfie Trim.png"  
 // Access the device camera and stream to cameraView
 function cameraStart() {
     navigator.mediaDevices
