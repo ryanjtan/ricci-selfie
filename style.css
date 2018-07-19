@@ -26,12 +26,12 @@ html, body{
     top: calc(40% - 100px);
 }
 
-#camera--filter(orientation: portrait){
+#camera--filter (orientation: portrait){
     .playfield {display: block;}
     .overlay {display: none;}
 }
 
-#camera--filter(orientation: landscape){
+#camera--filter (orientation: landscape){
     .playfield {display: none;}
     .overlay {display: none;}
 }
