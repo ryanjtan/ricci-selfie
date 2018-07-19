@@ -20,7 +20,7 @@ html, body{
 #camera--filter{
     position: fixed;
     width: 60%;
-    height: 70%;
+    height: 100%;
     bottom: 0;
     right: 0;
     top: calc(20% - 40px);
