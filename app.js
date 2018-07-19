@@ -11,14 +11,14 @@ const cameraView = document.querySelector("#camera--view"),
 function cameraStart() {
     navigator.mediaDevices
         .getUserMedia(constraints)
-        .then(function (stream) {
+        .then(function(stream) {
         track = stream.getTracks()[0];
         cameraView.srcObject = stream;
-    });
+    })
     .catch(function(error) {
         console.error("Oops. Something is broken.", error);
     });
-};
+}
 // Take a picture when cameraTrigger is tapped
 cameraTrigger.onclick = function() {
     cameraSensor.width = cameraView.videoWidth;
