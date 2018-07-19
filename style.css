@@ -23,7 +23,7 @@ html, body{
     height: 70%;
     bottom: 0;
     right: 0;
-    top: calc(30% - 30px);
+    top: calc(30% - 40px);
 }
 
 #camera--trigger{
