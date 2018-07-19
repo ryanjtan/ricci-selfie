@@ -24,7 +24,7 @@ html, body{
     bottom: 0;
     right: 0;
     top: calc(10% - 30px);
-    left: 550px;
+    left: 320px;
 }
 
 #camera--trigger{
