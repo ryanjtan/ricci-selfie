@@ -20,10 +20,9 @@ html, body{
 #camera--filter{
     position: fixed;
     width: 77%;
-    height: 80%;
-    bottom: 0;
-    right: 0;
-    top: calc(40% - 100px);
+    height: 80%:
+    object-fit: contain;
+    object-position: right bottom;
 }
 
 #camera--filter (orientation: portrait){
