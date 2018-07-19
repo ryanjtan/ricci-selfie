@@ -18,11 +18,13 @@ html, body{
 }
 
 #camera--filter{
-    position: fixed;
+    position: absolute;
     width: 80%;
     height: 70%;
     bottom: 0;
     right: 0;
+    top: calc(10% - 40px);
+    left: calc(100% - 20px);
 }
 
 #camera--trigger{
