@@ -13,7 +13,6 @@ function cameraStart() {
         .then(function(stream) {
         track = stream.getTracks()[0];
         cameraView.srcObject = stream;
-        cameraFilter.src = "Ricci Selfie Trim.png"; 
     })
     .catch(function(error) {
         console.error("Oops. Something is broken.", error);
@@ -24,7 +23,6 @@ cameraTrigger.onclick = function() {
     cameraSensor.width = cameraView.videoWidth;
     cameraSensor.height = cameraView.videoHeight;
     cameraSensor.getContext("2d").drawImage(cameraView, 0, 0);
-    cameraSensor.getContext("2d").drawImage(cameraFilter,238, 822)
     cameraOutput.src = cameraSensor.toDataURL("image/webp");
     cameraOutput.classList.add("taken");
 };
