@@ -5,8 +5,7 @@ const cameraView = document.querySelector("#camera--view"),
     cameraOutput = document.querySelector("#camera--output"),
     cameraSensor = document.querySelector("#camera--sensor"),
     cameraFilter = document.querySelector("#camera--filter"),
-    cameraTrigger = document.querySelector("#camera--trigger"),
-    cameraFilter.src = "Ricci Selfie Trim.png"  
+    cameraTrigger = document.querySelector("#camera--trigger"), 
 // Access the device camera and stream to cameraView
 function cameraStart() {
     navigator.mediaDevices
@@ -14,6 +13,7 @@ function cameraStart() {
         .then(function(stream) {
         track = stream.getTracks()[0];
         cameraView.srcObject = stream;
+        cameraFilter.src = "Ricci Selfie Trim.png"; 
     })
     .catch(function(error) {
         console.error("Oops. Something is broken.", error);
