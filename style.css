@@ -21,8 +21,9 @@ html, body{
     position: fixed;
     width: 77%;
     height: 80%:
-    object-fit: contain;
-    object-position: right bottom;
+    bottom: 0;
+    right: 0;
+    top: calc(40% - 100px);
 }
 
 #camera--trigger{
