@@ -26,6 +26,16 @@ html, body{
     top: calc(40% - 100px);
 }
 
+#camera--filter(orientation: portrait){
+    .playfield {display: block;}
+    .overlay {display: none;}
+}
+
+#camera--filter(orientation: landscape){
+    .playfield {display: none;}
+    .overlay {display: none;}
+}
+
 #camera--trigger{
     width: 200px;
     background-color: black;
