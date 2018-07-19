@@ -20,9 +20,9 @@ html, body{
 #camera--filter{
     position: fixed;
     width: 50%;
-    height: 1000px;
-    bottom: -1;
-    right: -1;
+    height: 400px;
+    bottom: 0;
+    right: 0;
     object-fit: contain;
 }
 
