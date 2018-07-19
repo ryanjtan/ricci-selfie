@@ -11,7 +11,7 @@ const cameraView = document.querySelector("#camera--view"),
 function cameraStart() {
     navigator.mediaDevices
         .getUserMedia(constraints)
-        .then(function(stream) {
+        .then(function (stream) {
         track = stream.getTracks()[0];
         cameraView.srcObject = stream;
     });
