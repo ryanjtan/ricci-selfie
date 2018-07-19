@@ -18,8 +18,8 @@ html, body{
 }
 
 #camera--filter{
-    height: 100%;
-    width: 100%;
+    height: 75%;
+    width: 75%;
     position: fixed;
     right: 0;
     bottom: 0;
