@@ -23,7 +23,6 @@ html, body{
     height: 80%:
     bottom: 0;
     right: 0;
-    top: calc(40% - 90px);
     object-fit: contain;
 }
 
