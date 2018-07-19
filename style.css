@@ -21,7 +21,7 @@ html, body{
     position: fixed;
     width: 80%;
     height: 80%;
-    right: 0;
+    right: -5;
     bottom: 0;
     object-fit: contain;
 }
