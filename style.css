@@ -19,9 +19,11 @@ html, body{
 
 #camera--filter{
     position: fixed;
+    width: 50%;
+    height: 50%;
     bottom: 0;
     right: 0;
-    object-fit: none;
+    object-fit: contain;
 }
 
 #camera--trigger{
