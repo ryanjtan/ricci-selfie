@@ -19,6 +19,18 @@ function cameraStart() {
         console.error("Oops. Something is broken.", error);
     });
 }
+// Check whether device is held in portrati or landscape mode
+var query = cameraSensor.matchMedia("(orientation: landscape");
+console.log("device held " + (query.matches ? "horizontally" : "vertically"));
+
+var toggleStream = function(query) {
+    if (query.matches) {
+        stream.pause(); // Landscape mode
+    } else {
+        stream.resume(); // Portrait mode
+    }
+}
+query.addEventListener(toggleStream);
 // Take a picture when cameraTrigger is tapped
 cameraTrigger.onclick = function() {
     cameraSensor.width = cameraView.videoWidth;
