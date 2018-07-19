@@ -22,7 +22,7 @@ html, body{
     bottom: 0;
     right: 0;
     width: 60%;
-    height: 60%;
+    height: auto;
 }
 
 #camera--trigger{
