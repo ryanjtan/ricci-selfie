@@ -19,7 +19,8 @@ html, body{
 
 #camera--filter{
     position: fixed;
-    width: 50%;
+    width: 77%;
+    height: 80%:
     bottom: 0;
     right: 0;
     object-fit: contain;
