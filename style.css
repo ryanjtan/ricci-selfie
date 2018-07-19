@@ -19,7 +19,6 @@ html, body{
 
 #camera--filter{
     position: absolute;
-    height: 500px;
     width: 50%;
     bottom: 0;
     right: 0;
