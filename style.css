@@ -20,7 +20,7 @@ html, body{
 #camera--filter{
     position: fixed;
     width: 50%;
-    height: 100%;
+    max-height: 1000px;
     bottom: 0;
     right: 0;
     object-fit: contain;
