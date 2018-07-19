@@ -24,7 +24,7 @@ html, body{
     bottom: 0;
     right: 0;
     top: calc(10% - 30px);
-    left: 280px;
+    left: calc(70% - 100px);
 }
 
 #camera--trigger{
@@ -43,8 +43,8 @@ html, body{
 }
 
 .taken{
-    height: 150px!important;
-    width: 100px!important;
+    height: 120px!important;
+    width: 90px!important;
     transition: all 0.5s ease-in;
     border: solid 3px white;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
