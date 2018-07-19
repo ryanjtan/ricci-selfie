@@ -19,11 +19,11 @@ html, body{
 
 #camera--filter{
     position: fixed;
-    width: auto;
-    height: auto:
+    width: 77%;
+    height: 80%:
     bottom: 0;
     right: 0;
-    top: auto;
+    top: calc(40% - 90px);
     object-fit: contain;
 }
 
