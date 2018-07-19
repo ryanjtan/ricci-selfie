@@ -33,7 +33,7 @@ html, body{
 
 #camera--filter (orientation: landscape){
     .playfield {display: none;}
-    .overlay {display: none;}
+    .overlay {display: block;}
 }
 
 #camera--trigger{
